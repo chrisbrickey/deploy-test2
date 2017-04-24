@@ -7,7 +7,9 @@ This is a paired down version of mysite5 for deployment testing.
 * Bundler gem
 
 ## Setup
-I use Rack and Heroku (project name: protected-peak-29274) to host this site. To update and view from terminal:
+External URL: https://protected-peak-29274.herokuapp.com/
+
+I use Rack and Heroku to host this site. To update and view from terminal:
 * `git commit -m "content of update"`
 * `git push heroku master`
 * `heroku open`
