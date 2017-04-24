@@ -6,11 +6,11 @@ myHeading.textContent = "chrisbrickey.com";
 
 
 //selecting everything on the page and assigning it to a var
-var myHTML = document.querySelector('html');
+// var myHTML = document.querySelector('html');
 //when the user clicks anywhere on the selected HTML (frontpage), an alert pops up
-myHTML.onclick = function() {
-  alert('HeeHee, that tickles!')
-}
+// myHTML.onclick = function() {
+//   alert('HeeHee, that tickles!')
+// }
 
 
 //selecting all img on index.html
