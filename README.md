@@ -15,13 +15,12 @@ To view locally from terminal:
 
 
 ## Management
-I use Rack and Heroku to host this site. To update and view from terminal:
-* `git commit -m "content of update"`
+I use Heroko to host this app and Github to manage the files. The heroku app (protected-peak-29274) is connected to the github repository (deploy-test2). The heroku app is currently set to automatically update hosted content when the github repository (master branch) is updated. I can disable automatic deploys and deploy manually if preferred, but for now content is updated via:
+* `git push -u origin master`
+
+(Not recommended) To update only Heroku and view from terminal:
 * `git push heroku master`
 * `heroku open`
-
-This Heroku app (protected-peak-29274) is connected to a github repository (deploy-test2). Automatic deployment from github to heroku is enabled via the 'master' branch. I can disable automatic deploys and deploy manually if preferred.
-* `git push -u origin master`
 
 
 ## Upcoming Features
