@@ -1,7 +1,5 @@
 html {
-  font-size: 10px;
   font-family: 'Josefin Sans', sans-serif;
-  color: black;
   background-color: white;
   margin: 0;
   padding: 0;
@@ -14,38 +12,46 @@ img {
 }
 
 h1 {
-  font-size: 25px;
+  color: black;
+  font-size: 20px;
   text-align: left;
+  float: left;
+  padding-right: 15px;
 }
 
 h2 {
+  color: black;
   font-size: 30px;
   text-align: left;
+  float: left;
 }
 
 h3 {
+  color: black;
   font-size: 30px;
   text-align: center;
 }
 
 h4 {
+  color: black;
   font-size: 15px;
   text-align: left;
-  float: left;
+  float: right;
+  margin-top: 17px;
+  margin-left: 10px;
 }
 
 button {
-  margin: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
   font-size: 10px;
+  float: right;
 }
 
-/*.coverpage {
-  margin-top:    10px;
-  padding:       10px;
-  height:        300px;*/
-  /*background-image: image-url("images/stars_long_banner.jpg");
-  background-size:  cover;*/
-/*}*/
+a {
+  color: rgb(100, 100, 100);
+}
+
 
 p, li {
   font-size: 16px;

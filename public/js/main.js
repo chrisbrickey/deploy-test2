@@ -2,7 +2,7 @@
 var myHeading = document.querySelector('h1');
 //textContent is a property (the text contained within) of the tag variable that we created in the previous line-heigh
 //so we're resetting the content of <h1></h1> to "Hello World"...which will override whatever is on the index.html within h1 tags
-myHeading.textContent = "chrisbrickey.com";
+myHeading.textContent = "chrisbrickey.io";
 
 
 //selecting everything on the page and assigning it to a var
@@ -34,7 +34,7 @@ function setUserName() {
   //setItem function stores data in the browser so we can later retrieve it
   localStorage.setItem('name', myName);
   //provide a welcome message
-  myHeading4.textContent = 'Hi, ' + myName + '!';
+  myHeading4.textContent = 'Current user: ' + myName + ' ';
 }
 
 //Initialization code
@@ -47,7 +47,7 @@ if(!localStorage.getItem('name')) {
   //retrieve the stored name using getItem()
   var storedName = localStorage.getItem('name');
   //use the stored name to do the welcome message
-  myHeading4.textContent = 'Hi, ' + storedName + '!';
+  myHeading4.textContent = 'Current user: ' + storedName + ' ';
 }
 
 //allows user to change their login name when they click the button - they reset the initialization process above
